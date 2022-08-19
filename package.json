@@ -1,0 +1,37 @@
+{
+  "name": "mod-8-rep-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatashaFedorova/mod-8-rep-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatashaFedorova/mod-8-rep-webpack/issues"
+  },
+  "homepage": "https://github.com/NatashaFedorova/mod-8-rep-webpack#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "style-loader": "^3.3.1"
+  }
+}
